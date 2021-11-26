@@ -3,8 +3,7 @@
 
 """An Albert extension that allows you to talk to jira."""
 
-from typing import ItemsView
-from albert import *
+from albert import configLocation, info, dataLocation, Item, FuncAction
 import geocoder
 import json
 import requests

@@ -2,7 +2,8 @@
 
 """An Albert extension that creates a uuidv4 and saves it to the clipboard"""
 
-from albert import *
+from albert import Item, ClipAction
+
 import uuid
 
 __title__ = "UUID creator"

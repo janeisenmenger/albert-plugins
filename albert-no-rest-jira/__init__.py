@@ -2,10 +2,8 @@
 
 """An Albert extension that allows you to talk to jira."""
 
-from albert import *
+from albert import configLocation, dataLocation, Item, info,FuncAction, UrlAction
 import json
-import os.path
-from urllib.parse import urlparse
 
 
 __title__ = "Jira no-REST"
@@ -103,4 +101,4 @@ def handleQuery(query):
             text = 'Look at my config my config is amazing!', 
             subtext = str(config), 
             actions = []
-        )] 
+        )]
